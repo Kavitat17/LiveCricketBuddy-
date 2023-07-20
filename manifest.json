@@ -1,0 +1,17 @@
+{
+    "name": "LiveCricketBuddy",
+    "version": "1.0.0",
+    "description": "This extension is for a cricket enthusiast who never wants to miss a thrilling moment of cricket.It is the ultimate extension to keep you informed about all the cricket matches happening in real-time. Stay in the Loop, get live score updates.",
+    "manifest_version": 3,
+    "author": "kavita",
+    "permissions":["activeTab"],
+    "action": {
+        "default_popup":"index.html",
+        "default_title":"LiveCricketBuddy",
+        "default_icon":{
+            "16":"images/icon16.png",
+            "48":"images/icon48.png",
+            "128":"images/icon128.png"
+        }
+    }
+}
